@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+@layer base {
+  .active {
+    @apply bg-color1 text-white p-4 rounded-full;
+  }
+}
